@@ -1,0 +1,26 @@
+.banne{
+    height:550px;width:100%;
+    background:url(../images/loginbg2.jpg) no-repeat -240px 0;
+    position:relative;margin-bottom:50px;}
+.banne-right1{
+    height:440px;width:280px;position:absolute;
+    background-color: white;
+    left:900px;top:35px;padding:30px 25px;}
+.pp{width:280px;height:24px;display:block;font-size:18px;color:#333;margin-bottom:20px;}
+.pp>a{display:inline-block;font-size:14px;color:#428bca;float:right;}
+.form2{width:280px;height:402px;display:block;}
+.form2 p{height:14px;line-height:14px;color:#333;margin:12px 0 7px 0;font-size:14px;
+}
+.form2 input{display:inline-block;width:280px;height:30px;}
+.spp{display:block;width:280px;height:34px;}
+.spp input{display:block;height:31px;width:80px;float:left;}
+.spp span img{display:block;width:82px;height:32px;float:left;margin:0 8px 0 10px;
+border:1px solid #cccccc;}
+.spp time{display:block;font-size:14px;float:left;height:34px;line-height:34px;}
+.spp a{display:block;font-size:14px;float:left;height:34px;line-height:34px;color:#428bca;}
+.form2 input:nth-of-type(4){height:31px;width:82px;}
+.btn{display:inline-block;width:107px;height:35px;background:#4cc5fe;cursor:pointer;
+color:white;line-height:35px;text-align:center; border:0;margin-left:6px;}
+#a1{width:116px;height:36px;display:inline-block;line-height:36px;text-align:center;
+font-size:14px;color:white;background:#c91623;border-radius:2px;cursor:pointer;margin-top:30px;}
+#a1:hover{background:#a40000;}

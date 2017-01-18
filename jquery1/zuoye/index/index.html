@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/lib/jquery-1.12.4.js"></script>
+    <script src="../js/app/menu.js"></script>
+    <script src="../js/app/countDown.js"></script>
+</head>
+<body>
+<div class="nav" id="first">
+     <div class="nav-center">
+        <ul class="nav-left">
+            <li>您好!<a>[请登录]</a></li>
+            <li><a>[免费注册]</a></li>
+        </ul>
+        <ul class="nav-right">
+            <li><a>活动公告</a></li>
+            <li><a>帮助中心</a></li>
+            <li><a>联系我们</a></li>
+        </ul>
+    </div>
+</div>
+<div class="logo">
+    <img  class="tulo" src="../images/logo.jpg" alt="">
+    <form action="" class="biao">
+        <input type="text" placeholder="请输入商品关键字查询">
+        <input type="button" value="搜索">
+        <p class="p-a">
+            <a href="">swisse</a>
+            <a href="">blackmores</a>
+            <a href="">爱他美</a>
+            <a href="">鱼油</a>
+            <a href="">德运</a>
+            <a href="">ugg</a>
+            <a href="">蜂毒</a>
+            <a href="">护肝片</a>
+        </p>
+    </form>
+    <span class="gouwu">
+        <img src="../images/h_car.png" alt="">
+        <a href="">我的购物车</a>
+        <i>></i>
+    </span>
+</div>
+<div class="menu">
+    <div class="menu-center">
+        <div class="title">
+            <a href="">全部商品分类</a><time class="_time"><s>◇</s></time>
+            <ul id="lie">
+                <li class="l1" id="l1te"><i></i><a>婴幼儿奶粉</a><span id="sss">></span>
+                    <div class="d1" id="d1">
+                        <dl>
+                            <dt><img src="../images/1.jpg" alt=""></dt>
+                            <dd><a>增加益生菌奶粉</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/2.jpg" alt=""></dt>
+                            <dd><a>有机奶粉</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/3.jpg" alt=""></dt>
+                            <dd><a>羊奶粉</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/4.jpg" alt=""></dt>
+                            <dd><a>牛奶粉</a></dd>
+                        </dl>
+
+                    </div></li>
+                <li class="l2"><i></i><a>营养美食</a><span>></span>
+                    <div class="d1" id="d2">
+                        <dl>
+                            <dt><img src="../images/b1.jpg" alt=""></dt>
+                            <dd>牛初乳</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/b2.jpg" alt=""></dt>
+                            <dd>澳纽美食</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/b3.jpg" alt=""></dt>
+                            <dd>酸奶粉</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/b4.jpg" alt=""></dt>
+                            <dd>成人奶粉</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="l3"><i></i><a>特纯蜂蜜</a><span>></span>
+                    <div class="d1" id="d3">
+                        <dl>
+                            <dt><img src="../images/c1.jpg" alt=""></dt>
+                            <dd>麦卢卡蜜</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/c2.jpg" alt=""></dt>
+                            <dd>花蜜</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/c3.jpg" alt=""></dt>
+                            <dd>水果蜜</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/c4.jpg" alt=""></dt>
+                            <dd>儿童蜜</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/c5.jpg" alt=""></dt>
+                            <dd>蜂蜜</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/c6.jpg" alt=""></dt>
+                            <dd>蜂胶滴剂</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/c7.jpg" alt=""></dt>
+                            <dd>蜂胶胶囊</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/c8.jpg" alt=""></dt>
+                            <dd>蜂浆王</dd>
+                        </dl>
+
+                    </div>
+                </li>
+                <li class="l4"><i></i><a>魅力女人</a><span>></span>
+                    <div class="d1" id="d4">
+                        <dl>
+                            <dt><img src="../images/z1.jpg" alt=""></dt>
+                            <dd>胶原蛋白</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/z2.jpg" alt=""></dt>
+                            <dd>葡萄籽</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/z3.jpg" alt=""></dt>
+                            <dd>排毒瘦身</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/z4.jpg" alt=""></dt>
+                            <dd>美容养颜</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/z5.jpg" alt=""></dt>
+                            <dd>调经/卵巢保养</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/z6.jpg" alt=""></dt>
+                            <dd>乳腺保养</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="../images/z7.jpg" alt=""></dt>
+                            <dd>丰胸/提臀</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="l5"><i></i><a>强健男人</a><span>></span></li>
+                <li class="l6"><i></i><a>关爱老人</a><span>></span></li>
+                <li class="l7"><i></i><a>优生优育</a><span>></span></li>
+                <li class="l8"><i></i><a>保护视力</a><span>></span></li>
+                <li class="l9"><i></i><a>宝宝专区</a><span>></span></li>
+                <li class="l10"><i></i><a>美容护肤</a><span>></span></li>
+                <li class="l11"><i></i><a>个互专场</a><span>></span></li>
+            </ul>
+        </div>
+        <!--导航栏-->
+        <div class="w-z">
+            <ul class="nav-u">
+                <li><a>网站首页</a></li>
+                <li><a>全部商品</a></li>
+                <li class="li-1"><a>母婴专区</a></li>
+                <li class="li-1"><a>营养保健</a></li>
+                <li class="li-1"><a>美妆个护</a></li>
+                <li><a>品牌列表</a></li>
+                <li><a>热门UGG</a></li>
+                <li ><a id="te-li">为什么选择我们？</a></li>
+                 <div class="div-1">
+                     <img src="../images/22.jpg" alt="">
+                </div>
+                <div class="div-1">
+                    <img src="../images/333.bmp" alt="">
+                </div>
+                <div class="div-1">
+                    <img src="../images/444.jpg" alt="">
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--轮播图-->
+<div class="bg-tu">
+        <div class="bg-tu1"></div>
+        <div class="bg-tu2"></div>
+        <div class="bg-tu3"></div>
+        <div class="hover-left"></div>
+        <div class="hover-right"></div>
+        <div class="click"><a class="a1"></a><a class="a2"></a><a class="a3"></a></div>
+</div>
+<!--1-->
+<div class="adv">
+    <ul class="adv-ul">
+        <li><a href=""><img src="../images/adv1.jpg" alt=""></a></li>
+        <li class="k1"><a href=""><img src="../images/adv2.jpg" alt=""></a></li>
+        <li class="k2"><a href=""><img src="../images/adv3.jpg" alt=""></a></li>
+        <li><a href=""><img src="../images/adv4.jpg" alt=""></a></li>
+    </ul>
+</div>
+<div class="tehui">
+    <p><span>每周特惠</span></p>
+</div>
+<!--2-->
+<div class="nai">
+    <div class="nai1">
+        <div class="nai1-left"><img src="../images/n1.jpg" alt=""></div>
+        <div class="nai1-right">
+            <div class="nai1-right-1">
+                <span class="m1"><img src="../images/m1.jpg" alt=""><time>Bellamy</time></span>
+                <span class="m2"><i>距结束</i><time id="time1"><s class="j1"></s>天<s class="j2"></s>时<s class="j3"></s>分<s class="j4"></s></time></span>
+                    <!--<s id="j1"></s>天<s id="j2"></s>小时<s id="j3"></s>分钟<s id="j4"></s>秒-->
+            </div>
+            <h1>贝拉米Bellamy's有机奶粉900g&nbsp;6罐装,3段</h1>
+            <p class="ppd">天然有机幼儿配方奶粉，不含任何添加剂，100%纯天然，澳洲第一有机婴儿食品品牌，通过NASAA有机认证。它富含必须的维生素和矿物质，来自有机牛乳。富含钙、锌、铁，另增加了益生元。添加菊粉，特别为了健康的消化系统。100%澳洲原产。</p>
+            <p class="ppd1"><span>￥</span>1199.00</p>
+            <p class="ppd2">812人已购买<a href="">立即购买</a></p>
+        </div>
+    </div>
+</div>
+<div class="nai">
+    <div class="nai1">
+        <div class="nai1-left"><img src="../images/n2.jpg" alt=""></div>
+        <div class="nai1-right">
+            <div class="nai1-right-1">
+                <span class="m1"><img src="../images/m2.jpg" alt=""><time>a2®</time></span>
+                <span class="m2"><i>距结束</i><time id="time2"><s class="j1"></s>天<s class="j2"></s>时<s class="j3"></s>分<s class="j4"></s></time></span>
+            </div>
+            <h1>澳洲A2成人奶粉1kg</h1>
+            <p class="ppd">β酪蛋白 帮助消化吸收 无添加速溶 营养丰富</p>
+            <p class="ppd1"><span>￥</span>129.00</p>
+            <p class="ppd2">163人已购买<a href="">立即购买</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="nai">
+    <div class="nai1">
+        <div class="nai1-left"><img src="../images/n3.jpg" alt=""></div>
+        <div class="nai1-right">
+            <div class="nai1-right-1">
+                <span class="m1"><img src="../images/m3.jpg" alt=""><time>Swisse</time></span>
+                <span class="m2"><i>距结束</i><time id="time3"><s class="j1"></s>天<s class="j2"></s>时<s class="j3"></s>分<s class="j4"></s></time></span>
+            </div>
+            <h1>Swisse无腥味深海鱼油软胶囊1500mg 200粒,2瓶装</h1>
+            <p class="ppd">Swisse 深海鱼油，可以调节身体免疫力，改善脑缺氧状态，清除体内毒素，改善眼部疲劳感，促进儿童脑发育等功效，特别适合生活节奏快，工作压力大的亚健康的人士。调节三高 护心益脑 保护视力</p>
+            <p class="ppd1"><span>￥</span>188.00</p>
+            <p class="ppd2">359人已购买<a href="">立即购买</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="nai">
+    <div class="nai1">
+        <div class="nai1-left"><img src="../images/n4.jpg" alt=""></div>
+        <div class="nai1-right">
+            <div class="nai1-right-1">
+                <span class="m1"><img src="../images/m4.jpg" alt=""><time>Blackmores</time></span>
+                <span class="m2"><i>距结束</i><time id="time4"><s class="j1"></s>天<s class="j2"></s>时<s class="j3"></s>分<s class="j4"></s></time></span>
+            </div>
+            <h1>Blackmores 天然VE面霜冰冰霜 3盒装</h1>
+            <p class="ppd">纯白肌星人范冰冰的VE面霜,不管是澳洲还是国内的冬天, 都是比较干燥的,用了VE霜后脸颊从早到晚上半夜都还保湿,上妆前用点粉底服帖!~Blackmores 维他命E润肤霜配方不含人造色素或香料，采用纯正天然成份，包括天然维他命E、 牛油果油、杏核油以及维他命A，能够保湿和滋润肌肤，令肌肤变得柔滑，舒缓干燥引起的不适，能够很好的滋润肌肤。</p>
+            <p class="ppd1"><span>￥</span>225.00</p>
+            <p class="ppd2">274人已购买<a href="">立即购买</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="nai">
+    <div class="nai1">
+        <div class="nai1-left"><img src="../images/n5.jpg" alt=""></div>
+        <div class="nai1-right">
+            <div class="nai1-right-1">
+                <span class="m1"><img src="../images/m5.jpg" alt=""><time>Swiise</time></span>
+                <span class="m2"><i>距结束</i><time id="time5"><s class="j1"></s>天<s class="j2"></s>时<s class="j3"></s>分<s class="j4"></s></time></span>
+            </div>
+            <h1>Swisse胶原蛋白口服液500ml,3瓶装</h1>
+            <p class="ppd">美容养颜，修复细胞，收缩毛孔，增加皮肤弹力。如果平时饮食较为简单，偏少， 偏素， 偏清淡，又感觉皮肤质地下降，松弛，饱满度降低，皱纹增长快，那口服的胶原蛋白能促进皮肤弹性和去皱纹，促进发质和指甲的生长，液体更易吸收哦！</p>
+            <p class="ppd1"><span>￥</span>339.00</p>
+            <p class="ppd2">437人已购买<a href="">立即购买</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="nai">
+    <div class="nai1">
+        <div class="nai1-left"><img src="../images/n6.jpg" alt=""></div>
+        <div class="nai1-right">
+            <div class="nai1-right-1">
+                <span class="m1"><img src="../images/m6.jpg" alt=""><time>Streamland</time></span>
+                <span class="m2"><i>距结束</i><time id="time6"><s class="j1"></s>天<s class="j2"></s>时<s class="j3"></s>分<s class="j4"></s></time></span>
+            </div>
+            <h1>Streamland 新溪岛 天然 柠檬蜂蜜（新包装）&nbsp;500g,1瓶装</h1>
+            <p class="ppd">Streamland把新西兰天然三叶草蜂蜜与新鲜柠檬的提取液结合，并采用先进的技术去除柠檬原有的涩味，造就了风味独特、齿颊留香的浓郁柠檬蜂蜜。Streamland柠檬蜂蜜不添加任何色素、防腐剂、糖分及化学调味剂，给您和家人最天然的美味。</p>
+            <p class="ppd1"><span>￥</span>115.00</p>
+            <p class="ppd2">341人已购买<a href="">立即购买</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="nai">
+    <div class="nai1">
+        <div class="nai1-left"><img src="../images/n7.jpg" alt=""></div>
+        <div class="nai1-right">
+            <div class="nai1-right-1">
+                <span class="m1"><img src="../images/m7.jpg" alt=""><time>KarenMurrell</time></span>
+                <span class="m2"><i>距结束</i><time id="time7"><s class="j1"></s>天<s class="j2"></s>时<s class="j3"></s>分<s class="j4"></s></time></span>
+            </div>
+            <h1>Karen Murrell 口红圣诞钥匙扣礼盒套装（13/20号色）&nbsp;</h1>
+            <p class="ppd">天然有机幼儿配方奶粉，不含任何添加剂，100%纯天然，澳洲第一有机婴儿食品品牌，通过NASAA有机认证。它富含必须的维生素和矿物质，来自有机牛乳。富含钙、锌、铁，另增加了益生元。添加菊粉，特别为了健康的消化系统。100%澳洲原产。</p>
+            <p class="ppd1"><span>￥</span>199.00</p>
+            <p class="ppd2">116人已购买<a href="">立即购买</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="nai">
+    <div class="nai1">
+        <div class="nai1-left"><img src="../images/n8.jpg" alt=""></div>
+        <div class="nai1-right">
+            <div class="nai1-right-1">
+                <span class="m1"><img src="../images/m8.jpg" alt=""><time>Weetbix</time></span>
+                <span class="m2"><i>距结束</i><time id="time8"><s class="j1"></s>天<s class="j2"></s>时<s class="j3"></s>分<s class="j4"></s></time></span>
+            </div>
+            <h1>weet-bix低脂即食谷物营养早餐燕麦片欢乐颂同款1.4k g</h1>
+            <p class="ppd">吃出A4腰 原味低脂干吃 代餐饱腹 糯香即食。Weet-Bix 多种谷物的营养麦片，一直充当多种身份既可当早餐也可做零食，方便快捷，低脂低糖高纤维，越吃越瘦身，吃得健康，吃出好身材，健康从营养麦片开始。</p>
+            <p class="ppd1"><span>￥</span>89.00</p>
+            <p class="ppd2">435人已购买<a href="">立即购买</a></p>
+        </div>
+    </div>
+</div>
+<!--3-->
+<div class="tehui">
+    <p><span>澳纽精选</span></p>
+</div>
+<!--4-->
+<div class="new-online">
+    <ul class="new-uu">
+        <li><a href=""><img src="../images/x1.jpg" alt=""></a><div class="uu-div"></div></li>
+        <li><a href=""><img src="../images/x2.jpg" alt=""></a><div class="uu-div"></div></li>
+        <li><a href=""><img src="../images/x3.jpg" alt=""></a><div class="uu-div"></div></li>
+        <li><a href=""><img src="../images/x4.jpg" alt=""></a><div class="uu-div"></div></li>
+    </ul>
+</div>
+<!--5-->
+<div class="tehui">
+    <p><span>大牌汇</span></p>
+</div>
+<!--6-->
+<div class="da-pai">
+    <div class="da-1">
+        <ul class="photo">
+            <li><a href=""><img src="../images/q1.jpg" alt=""></a>
+                <div class="n1"></div>
+                <div class="n2">Swisse</div>
+            </li>
+            <li><a href=""><img src="../images/q2.jpg" alt=""></a>
+                <div class="n1"></div>
+                <div class="n2">Blackmore</div>
+            </li>
+            <li><a href=""><img src="../images/q3.jpg" alt=""></a>
+                <div class="n1"></div>
+                <div class="n2">好健康</div>
+            </li>
+            <li><a href=""><img src="../images/q4.jpg" alt=""></a>
+                <div class="n1"></div>
+                <div class="n2">Sukin</div>
+            </li>
+            <li><a href=""><img src="../images/q5.jpg" alt=""></a>
+                <div class="n1"></div>
+                <div class="n2">Streamland</div>
+            </li>
+            <li><a href=""><img src="../images/q6.jpg" alt=""></a>
+                <div class="n1"></div>
+                <div class="n2">Royal Nectar</div>
+            </li>
+        </ul>
+    </div>
+    <table class="da-2" border="1" cellspacing="0" >
+        <tr class="tr">
+            <td><a href=""><img src="../images/w1.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w2.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w3.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w4.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w5.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w6.jpg" alt=""></a></td>
+        </tr>
+        <tr>
+            <td><a href=""><img src="../images/w7.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w8.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w9.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w10.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w11.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w12.jpg" alt=""></a></td>
+        </tr>
+        <tr>
+            <td><a href=""><img src="../images/w13.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w14.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w15.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w16.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w17.jpg" alt=""></a></td>
+            <td><a href=""><img src="../images/w18.jpg" alt=""></a></td>
+        </tr>
+    </table>
+</div>
+<!--全球购-->
+<div class="qu-qiu">
+    <div class="qu-center">
+        <div class="f1">
+            <div>全球购精选</div>
+            <p>GLOBAL SELECTED</p>
+        </div>
+        <ul class="f2">
+            <li id="bli" class="ll1"><a href="">奶粉</a></li>
+            <li><a href="">保健品</a></li>
+            <li><a href="">孕婴</a></li>
+            <li><a href="">美妆</a></li>
+            <li><a href="">美食</a></li>
+        </ul>
+    </div>
+</div>
+<!--7-->
+<div class="tu-ku">
+    <div class="tu-ku1" id="show-tu">
+        <dl>
+            <dt><img src="../images/l1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/l1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/l1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/l1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/l1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/l1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/l1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/l1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/l1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+    </div>
+    <!--baojianpin-->
+    <div class="tu-ku1">
+        <dl>
+            <dt><img src="../images/mb1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/mb1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/mb1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb1.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+    </div>
+    <!--孕婴-->
+    <div class="tu-ku1">
+        <dl>
+            <dt><img src="../images/mb2.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/mb2.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb2.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb2.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/mb2.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb2.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb2.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+    </div>
+    <!--meizhung-->
+    <div class="tu-ku1">
+        <dl>
+            <dt><img src="../images/mb3.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/mb3.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb3.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb3.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/mb3.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb3.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb3.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+    </div>
+    <!--美食-->
+    <div class="tu-ku1">
+        <dl>
+            <dt><img src="../images/mb4.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/mb4.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb4.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb4.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/mb4.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb4.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb4.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl class="ddd">
+            <dt><img src="../images/mb4.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/mb4.jpg" alt=""></dt>
+            <dd>
+                <p>Aptamil爱他美金装牛奶粉900克6罐装,3段</p>
+                <span class="span-t"><time>￥<i>999.00</i></time><a href="">立即购买</a></span>
+            </dd>
+        </dl>
+    </div>
+</div>
+<!--7-->
+<div class="zheng-pin"><img src="../images/redbot.jpg" alt=""></div>
+<!--8-->
+<div class="foot">
+    <footer class="foot-center">
+        <ul class="xin-s">
+            <h3>新手上路</h3>
+            <li><a href="">订单查询</a></li>
+            <li><a href="">余额&提现说明</a></li>
+            <li><a href="">身份证报关</a></li>
+            <li><a href="">通关关税</a></li>
+            <li><a href="">常见问题</a></li>
+            <li><a href="">考拉币说明</a></li>
+            <li><a href="">现金卷说明</a></li>
+            <li><a href="">购物指南</a></li>
+            <li><a href="">商品税率表</a></li>
+        </ul>
+        <ul class="zhi-f">
+            <h4>支付/配送方式</h4>
+            <li><a href="">配送说明</a></li>
+            <li><a href="">欠收标准</a></li>
+            <li><a href="">物流/海关介绍</a></li>
+            <li><a href="">支付方式</a></li>
+        </ul>
+        <ul class="shou-h">
+            <h5>售后服务</h5>
+            <li><a href="">晚到补偿</a></li>
+            <li><a href="">售后说明</a></li>
+            <li><a href="">退款流程</a></li>
+            <li><a href="">破罐理财</a></li>
+            <li><a href="">退款说明</a></li>
+            <li><a href="">退换说明</a></li>
+        </ul>
+        <ul class="guan-y">
+            <h6>关于我们</h6>
+            <li><a href="">批发合作</a></li>
+            <li><a href="">运营合作</a></li>
+            <li><a href="">安适购</a></li>
+        </ul>
+
+        <ul class="four">
+            <li><a href=""><img src="../images/f_qq.jpg" alt=""></a><p>官方微信</p></li>
+            <li><a href=""><img src="../images/f_wb.jpg" alt=""></a><P>官方微博</P></li>
+            <li><a href=""><img src="../images/f_wx.jpg" alt=""></a><p>企业QQ</p></li>
+        </ul>
+    </footer>
+</div>
+<div class="last">Copyright © 2011-2016 All Rights Reserved. ANSGO.COM「安适购」</div>
+<!--固定定位-->
+<ul id="jump">
+    <li><a  class="top" id="scroll-top" href="#first"></a></li>
+    <li><a  class="kefu" href=""></a></li>
+    <li><a  class="weixin" href=""><img class="we-x" src="../images/weixin_code.jpg" alt=""></a></li>
+    <li><a  class="xin-l" href=""></a></li>
+</ul>
+</body>
+</html>

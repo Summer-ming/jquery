@@ -1,0 +1,30 @@
+*{margin:0;padding:0}
+/*登录购物车样式*/
+
+
+.nav{height:475px;width:1419px;background:white;margin-bottom:80px;}
+.nav-c{height:475px;width:1004px;margin:auto;}
+.nav-c>img{display:block;float:left;width:668px;height:475px;}
+.deLu{height:360px;width:330px;float:right;margin-top:70px;}
+h2{height:48px;width:330px;}
+h2>span{float:left;height:48px;width:200px;line-height:48px;font-size:24px;font-weight:normal;
+color:#333;}
+h2>a{display:block;height:48px;float:right;color:#428bca;
+font-size:14px;line-height:48px;}
+.form1>input{display:block;width:330px;height:34px;}
+.form1>p:nth-of-type(1){font-size:14px;color:#333;margin:8px 0 5px 0;}
+.form1>p:nth-of-type(2){font-size:14px;color:#333;margin:8px 0 3px 0;}
+.sp1{display:block;width:330px;height:34px;margin-top:18px;}
+.sp1>input{display:block;height:34px;width:88px;background: #c91623;color:white;
+text-align:center;line-height:34px;float:left;border:0;cursor: pointer;}
+.sp1>input:hover{background:#a40000;}
+.sp1>a{display:block;width:80px;height:34px;color:#428bca;line-height:34px;float:right;
+font-size:14px;text-align:right;}
+h3{font-weight:normal;color:#999;font-size:14px;margin-top:30px;}
+.uu{height:30px;width:330px;margin-top:5px;}
+.uu>img{display:block;}
+.uu>li{float:left;padding:0 24px;width:46px;}
+.uu>li>a{color:#333333;display:block;font-size:12px;line-height:30px;height:30px;}
+.uu>li:nth-of-type(1){background:url(../images/lo_alipay.png) no-repeat left center;}
+.uu>li:nth-of-type(2){background:url(../images/lo_weixin.png) no-repeat left center;}
+.line{ color:#ccc;display:block;float:left;margin-left:-20px;height:12px;margin-top:3px;}

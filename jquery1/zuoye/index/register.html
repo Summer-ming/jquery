@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/regester.css">
+    <link rel="stylesheet" href="../css/gong.css">
+    <script src="../js/lib/jquery-1.12.4.js"></script>
+    <script src="../js/lib/jquery.validate.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header-c">
+        <p class="p1">
+            <img src="../images/logo_mini.jpg" alt=""/>
+            <a href="">会员登录</a>
+        </p>
+        <p class="p2"><a href="">返回官网</a></p>
+    </div>
+</div>
+<div class="banne">
+    <div class="banne-right1">
+        <span class="pp">注册会员<a href="">会员登录</a></span>
+        <form action="" class="form2">
+            <p>手机号码(+86 中国):</p>
+            <input type="text" name="phone" id="ph">
+            <p>密码:</p>
+            <input type="password" name="password" id="psd">
+            <p>确认密码:</p>
+            <input type="text" name="confirm_password" id="con-psd">
+            <p>图片验证码:</p>
+            <span class="spp">
+                <input type="text">
+                <span><img src="../images/captcha.png" alt=""></span>
+                <time>看不清?</time>
+                <a href="">换一张</a>
+            </span>
+            <p>短信验证码:</p>
+            <input type="text">
+            <button class="btn">获取短信验证码</button>
+            <a id="a1" href="">免费注册</a>
+        </form>
+    </div>
+</div>
+<ul id="uu1">
+    <li><a>关于我们</a></li>
+    <li><a>联系我们</a></li>
+    <li><a>批发合作</a></li>
+    <li><a>购物保障</a></li>
+    <li><a>使用条款</a></li>
+    <li><a>完税价格表</a></li>
+    <li><a>破罐理赔</a></li>
+    <li id="te"><a>官方微博</a></li>
+</ul>
+<footer class="foot">Copyright © 2011-2016 All Rights Reserved. ANSGO.COM「安适购」
+</footer>
+<script>
+    //注册验证
+    $(function(){
+        $(".form2").validate({
+            rules:{
+                name:{
+                    phone:"required",
+                    phone:true,
+                    password:{required:true, rangelength:[3,10]},
+                    confirm_password:{equalTo:"#psd"}
+                }
+            },
+            messages:{
+                name:{
+                    required:"手机号必须填写",
+                    phone:"手机号格式必须正确",
+                    password:{required:"密码必须填写",rangelength:"密码最小长度:{3}, 最大长度:{10}。"},
+                    confirm_password:{equalTo:"两次密码输入不一致"}
+                }
+            }
+        })
+    })
+</script>
+</body>
+</html>
